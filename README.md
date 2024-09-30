@@ -1,2 +1,2 @@
 # Java-Script
-This specific repo contains the projects build using 
+This specific repo contains the projects build using Vanilla JS
