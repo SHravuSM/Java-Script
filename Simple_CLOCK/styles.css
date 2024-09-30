@@ -1,0 +1,45 @@
+/* Ensure full height and remove default margins */
+html, body {
+    height: 100%;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a202c; /* Dark background for contrast */
+    color: #f7fafc; /* Light text color */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Clock container styling */
+.clock-container {
+    text-align: center;
+    background-color: #2d3748; /* Slightly lighter background */
+    padding: 20px;
+    margin: 4px; /* Margin around the div */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+
+/* Date styling */
+#date {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Time styling */
+#time {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Responsive font size adjustment */
+@media (max-width: 600px) {
+    #date {
+        font-size: 1.2rem;
+    }
+
+    #time {
+        font-size: 2.5rem;
+    }
+}

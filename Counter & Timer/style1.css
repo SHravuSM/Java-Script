@@ -1,0 +1,16 @@
+#clock{
+    background-color: black;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+
+}
+#clock p{
+    padding: 0px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
